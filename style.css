@@ -196,8 +196,8 @@ main {
 
 .form {
     background-color: black;
-    width: 100%;
-    height: 100%;
+    width: 1920px;
+    height: 884px;
 }
 
 .form_text2 {
@@ -373,6 +373,7 @@ main {
 }
 
 .box-sale {
+    width: 1920px;
     display: flex;
     align-items: flex-start;
 }
