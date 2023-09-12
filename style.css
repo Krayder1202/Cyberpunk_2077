@@ -196,6 +196,8 @@ main {
 
 .form {
     background-color: black;
+    width: 100%;
+    height: 100%;
 }
 
 .form_text2 {
@@ -285,7 +287,201 @@ main {
     flex-direction: row;
     justify-content: flex-start\;
 }
+
 .label2 {
     display: flex;
     flex-direction: column;
+}
+
+.back-2 {
+    width: 1920px;
+    height: 70px;
+    background-image: url(./img/22_2.png);
+}
+
+.form-2 {
+    background-color: #F8F200;
+    width: 1920px;
+    height: 724px;
+}
+
+.advertising-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.advertising-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.advertising {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 70px;
+}
+
+.advertising-text p {
+    width: 624px;
+    height: 125px;
+    top: 3022px;
+    left: 976px;
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left
+}
+
+.advertising-text h1 {
+    width: 560px;
+    height: 126px;
+    top: 2871px;
+    left: 976px;
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.advertising-text button {
+    width: 194px;
+    height: 59px;
+    top: 3338px;
+    left: 976px;
+    padding: 15px 50px 15px 50px;
+    gap: 10px;
+    background-color: black;
+    color: #F8F200;
+    border: 0;
+    cursor: pointer;
+    font-family: Roboto-regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.box-sale {
+    display: flex;
+    align-items: flex-start;
+}
+
+.box-sale-img {
+    width: 944px;
+    height: 717px;
+    top: 3477px;
+    background-image: url(./img/box-game.jpg);
+}
+
+.box-sale-text {
+    width: 976px;
+    height: 717px;
+    top: 3477px;
+    left: 944px;
+    background-color: black;
+}
+
+.box-sale-text img {
+    margin-left: 32px;
+}
+
+.box-sale-text h1 {
+    width: 624px;
+    height: 126px;
+    top: 3547px;
+    left: 976px;
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 32px;
+}
+
+.box-sale-text p {
+    width: 255px;
+    height: 28.150239944458008px;
+    top: 3937px;
+    left: 976px;
+    font-family: Roboto-regular;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #52BEDC;
+    margin-left: 32px;
+    margin-bottom: 60px;
+    padding: 0;
+}
+
+.platform {
+    width: 319px;
+    height: 133.26828002929688px;
+    top: 3990px;
+    left: 976px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 32px;
+}
+
+footer {
+    width: 1920px;
+    height: 140px;
+    top: 4194px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-logo {
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+    margin-top: 13px;
+}
+.footer-buttom {
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+    margin-top: 60px;
+}
+.footer-buttom a {
+    font-family: Roboto-regular;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: black;
+text-decoration: none;
+}
+.end {
+    background-color: black;
+    text-align: center;
+    color: #ffffff;
+    width: 1920px;
+height: 40px;
+}
+.end p {
+    font-family: Roboto-regular;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: center;
 }
